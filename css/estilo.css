@@ -1,0 +1,75 @@
+.tabela-usuarios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 10px;
+}
+
+.titulo-secao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.form-acao-editar form {
+    display: flex;
+    flex-direction: row;
+
+}
+.form-acao-editar form button {
+    background-color: transparent;
+}
+
+.form-acao-editar form button {
+    margin-right: 20px;
+}
+
+table tr th {
+    text-align: start;
+    padding: 5px 5px 10px 0;
+    min-width: 120px;
+}
+
+table tr td {
+    text-align: start;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(203, 213, 225, .5);
+    margin: 0;
+    font-size: 15px;
+}
+
+table th:first-child,table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+}
+
+.form-row-group {
+    width: 100%;
+}
+.mensagemRetorno {
+    padding: 10px 0;
+    align-items: center;
+}
+
+.mensagemRetorno i {
+    font-size: 16px;
+    padding: 0 5px;
+}
+.mensagemErroRetorno {
+    background-color: red;
+    color: #fff;
+}
+
+.mensagemSucesso {
+    background-color: rgba(132, 204, 22);
+            color: #fff;
+}

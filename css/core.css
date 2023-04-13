@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {}
+
+main {
+    padding: 25px 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+.botao-novo-registro a {
+    background-color: rgba(132, 204, 22);
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: all .5s ease;
+    color: #fff;
+}
+
+.botao-novo-registro a:hover {
+    background-color: rgba(163, 230, 53);
+}
+
+.botao-voltar a {
+    background-color: rgb(77, 22, 204);
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: all .5s ease;
+    color: #fff;
+}
+
+.botao-voltar a:hover {
+        background-color: rgb(95, 50, 199);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.form-group-items {
+    width: 100%;
+}
+
+.form-group-items input {
+    width: calc(100% - 10px);
+}
+
+.form-group-items select {
+    width: 100%;
+}
+
+.form-group-items input,
+.form-group-items select {
+    height: 40px;
+    padding-left: 5px;
+}
+
+.botao-atualizar-registro button {
+    background-color: rgba(132, 204, 22);
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 2px;
+    transition: all .5s ease;
+    color: #fff;
+}
+
+.botao-atualizar-registro button:hover {
+    background-color: rgba(163, 230, 53);
+}
+
+.botao-deletar-registro button {
+    background-color: rgb(252, 24, 24);
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 2px;
+    transition: all .5s ease;
+    color: #fff;
+}
+
+.botao-deletar-registro button:hover {
+    background-color: rgb(184, 43, 43);
+}
